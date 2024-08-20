@@ -1,0 +1,88 @@
+[
+  {
+    "id": 0,
+    "title": "savage",
+    "cover": "/discography/Cover-Savage.jpg",
+    "songs": [
+      "ænergy",
+      "Savage",
+      "I’ll Make You Cry",
+      "YEPPI YEPPI",
+      "ICONIC",
+      "자각몽 (Lucid Dream)"
+    ],
+    "icon": "/discography/Gif-Savage.gif",
+    "bgColor": "savage"
+  },
+  {
+    "id": 1,
+    "title": "girls",
+    "cover": "/discography/Cover-Girls.jpg",
+    "songs": [
+      "Girls",
+      "도깨비불 (Illusion)",
+      "Lingo",
+      "Life’s Too Short",
+      "ICU (쉬어가도 돼)",
+      "Life’s Too Short (English Ver.)"
+    ],
+    "icon": "/discography/Gif-Girls.gif",
+    "bgColor": "girls"
+  },
+  {
+    "id": 2,
+    "title": "my world",
+    "cover": "/discography/Cover-MyWorld.jpg",
+    "songs": [
+      "Welcome To MY World",
+      "Spicy",
+      "Salt & Sweet",
+      "Thirsty",
+      " I’m Unhappy",
+      "‘Til We Meet Again"
+    ],
+    "icon": "/discography/Gif-MyWorld.gif",
+    "bgColor": "myWorld"
+  },
+  {
+    "id": 3,
+    "title": "drama",
+    "cover": "/discography/Cover-Drama.jpg",
+    "songs": [
+      "Drama",
+      "Trick or Trick",
+      "Don’t Blink",
+      "Hot Air Ballon",
+      "YOLO",
+      "You"
+    ],
+    "icon": "/discography/Gif-Drama.gif",
+    "bgColor": "drama"
+  },
+  {
+    "id": 4,
+    "title": "armageddon",
+    "cover": "/discography/Cover-Armageddon.jpg",
+    "songs": [
+      "Supernova",
+      "Armageddon",
+      "Mine",
+      "Licorice",
+      "BAHAMA",
+      "Long Chat (#♥)",
+      "Prologue",
+      "Live My Life",
+      "Melody"
+    ],
+    "icon": "/discography/Gif-Armageddon.gif",
+    "bgColor": "armageddon"
+  },
+  {
+    "id": 5,
+    "title": "hot mess",
+    "cover": "/discography/Cover-HotMess.jpg",
+    "songs": ["Hot Mess", "Sun and Moon", "ZOOM ZOOM"],
+    "icon": "/discography/Gif-HotMess.gif",
+    "bgColor": "hotMess"
+  }
+]
