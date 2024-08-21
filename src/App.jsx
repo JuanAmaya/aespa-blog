@@ -10,21 +10,24 @@ import NotFound from "./pages/NotFound";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/aespa-blog/",
     element: <Landing />,
-    errorElement: <NotFound />,
   },
   {
-    path: "/profile",
+    path: "/aespa-blog/profile",
     element: <Profile />,
   },
   {
-    path: "/discography",
+    path: "/aespa-blog/discography",
     element: <Discography />,
   },
   {
-    path: "/musicvideos",
+    path: "/aespa-blog/musicvideos",
     element: <MusicVideos />,
+  },
+  {
+    path: "*",
+    element: <NotFound />,
   },
 ]);
 

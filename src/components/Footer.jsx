@@ -15,7 +15,7 @@ export default function Footer() {
       </div>
 
       <div className="flex justify-center mb-4">
-        <img src="/Footer-Aespa.png" alt="Pink Aespa logo" className="w-96" />
+        <img src="./Footer-Aespa.png" alt="Pink Aespa logo" className="w-96" />
       </div>
     </footer>
   );

@@ -38,7 +38,7 @@ export default function ProfileCard({
 
       <div className="h-128 overflow-hidden md:h-auto relative">
         <img
-          src="/profile/noise.gif"
+          src="./profile/noise.gif"
           alt="noise"
           className="absolute md:h-full w-full opacity-10"
         />

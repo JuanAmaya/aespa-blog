@@ -7,8 +7,8 @@ export default function ToMenuHeader({ children }) {
     <>
       <PageTitle>{children}</PageTitle>
       <div className="mt-4">
-        <Link to={"/"}>
-          <Option title={"Menu"} icon={"/icons/Icon-Menu.png"} />
+        <Link to={"/aespa-blog/"}>
+          <Option title={"Menu"} icon={"./icons/Icon-Menu.png"} />
         </Link>
       </div>
     </>

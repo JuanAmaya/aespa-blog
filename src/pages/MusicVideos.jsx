@@ -24,22 +24,22 @@ export default function MusicVideos() {
         </div>
 
         <img
-          src="/MV/Corner1.gif"
+          src="./MV/Corner1.gif"
           alt="My World gif"
           className="absolute -top-28 w-60"
         />
         <img
-          src="/MV/Corner2.gif"
+          src="./MV/Corner2.gif"
           alt="My World gif"
           className="hidden md:block absolute -top-12 right-10 w-40"
         />
         <img
-          src="/MV/Corner3.gif"
+          src="./MV/Corner3.gif"
           alt="My World gif"
           className="absolute -bottom-10 right-0 w-40"
         />
         <img
-          src="/MV/Corner4.gif"
+          src="./MV/Corner4.gif"
           alt="My World gif"
           className="hidden md:block absolute -bottom-0 -left-10 w-52"
         />

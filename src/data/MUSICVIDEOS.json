@@ -1,52 +1,52 @@
 [
   {
     "id": 0,
-    "songLogo": "/MV/Savage.png",
+    "songLogo": "./MV/Savage.png",
     "url": "https://www.youtube.com/embed/WPdWvnAAurg?si=D7gpnoZ72ZaOE0wr"
   },
   {
     "id": 1,
-    "songLogo": "/MV/LifesTooShort.png",
+    "songLogo": "./MV/LifesTooShort.png",
     "url": "https://www.youtube.com/embed/z2ZjutyxmjA?si=imu1PX6bWPkT6ddT"
   },
   {
     "id": 2,
-    "songLogo": "/MV/Girls.png",
+    "songLogo": "./MV/Girls.png",
     "url": "https://www.youtube.com/embed/dYRITmpFbJ4?si=J7gQIbizAcl1vlWY"
   },
   {
     "id": 3,
-    "songLogo": "/MV/Spicy.png",
+    "songLogo": "./MV/Spicy.png",
     "url": "https://www.youtube.com/embed/Os_heh8vPfs?si=7i0mjXekY5kJRxzq"
   },
   {
     "id": 4,
-    "songLogo": "/MV/BetterThings.png",
+    "songLogo": "./MV/BetterThings.png",
     "url": "https://www.youtube.com/embed/gfk3QLU1x0E?si=raycoA9LttoJbohq"
   },
   {
     "id": 5,
-    "songLogo": "/MV/Drama.png",
+    "songLogo": "./MV/Drama.png",
     "url": "https://www.youtube.com/embed/D8VEhcPeSlc?si=-yG70LHgfhvx_p0W"
   },
   {
     "id": 6,
-    "songLogo": "/MV/Supernova.png",
+    "songLogo": "./MV/Supernova.png",
     "url": "https://www.youtube.com/embed/phuiiNCxRMg?si=rKKFW0wDGo4eDOCz"
   },
   {
     "id": 7,
-    "songLogo": "/MV/LongChat.png",
+    "songLogo": "./MV/LongChat.png",
     "url": "https://www.youtube.com/embed/USr5C0QXMVw?si=ZUsK0Zl8N6sr33VZ"
   },
   {
     "id": 8,
-    "songLogo": "/MV/Armageddon.png",
+    "songLogo": "./MV/Armageddon.png",
     "url": "https://www.youtube.com/embed/nFYwcndNuOY?si=522H4qIz17yOZZVe"
   },
   {
     "id": 9,
-    "songLogo": "/MV/HotMess.png",
+    "songLogo": "./MV/HotMess.png",
     "url": "https://www.youtube.com/embed/2iK3ccCsI6s?si=Zehq6tugpJ6mkC7A"
   }
 ]

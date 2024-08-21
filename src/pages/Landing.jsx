@@ -11,24 +11,27 @@ export default function Landing() {
           <span className="text-brigthRed">◆ MENU ◆</span>
           <ul className="flex flex-col gap-2">
             <li>
-              <Link to="/profile">
-                <Option title={"Profile"} icon={"/icons/Icon-Profile.png"} />
+              <Link to="/aespa-blog/profile">
+                <Option title={"Profile"} icon={"./icons/Icon-Profile.png"} />
               </Link>
             </li>
             <li>
-              <Link to="/discography">
-                <Option title={"Discography"} icon={"/icons/Icon-Disco.png"} />
+              <Link to="/aespa-blog/discography">
+                <Option title={"Discography"} icon={"./icons/Icon-Disco.png"} />
               </Link>
             </li>
             <li>
-              <Link to="/musicvideos">
-                <Option title={"Music Videos"} icon={"/icons/Icon-Video.png"} />
+              <Link to="/aespa-blog/musicvideos">
+                <Option
+                  title={"Music Videos"}
+                  icon={"./icons/Icon-Video.png"}
+                />
               </Link>
             </li>
           </ul>
         </div>
         <img
-          src="/Landing/FullGroup.gif"
+          src="./Landing/FullGroup.gif"
           alt="Korean Group Aespa"
           className="w-96"
         />
@@ -48,7 +51,7 @@ export default function Landing() {
       <div className="relative">
         <div className="mx-auto absolute -top-44 left-0 right-0 w-max">
           <img
-            src="/Landing/Col-Cart.gif"
+            src="./Landing/Col-Cart.gif"
             alt="Shopping cart"
             className="w-56"
           />
@@ -58,30 +61,30 @@ export default function Landing() {
             The 1st Album Armageddon is out!
           </span>
           <a href="https://aespa.lnk.to/ARMGDDNJ" target="_blank">
-            <Option title={"Listen Now"} icon={"/icons/Icon-Speaker.png"} />
+            <Option title={"Listen Now"} icon={"./icons/Icon-Speaker.png"} />
           </a>
         </div>
       </div>
 
       <div className="relative p-4 max-w-fit mx-auto">
         <div className="grid grid-cols-2 max-w-xl mx-auto">
-          <img src="/Landing/Col-1.gif" alt="Armageddon MV" />
-          <img src="/Landing/Col-2.gif" alt="Live My life MV" />
-          <img src="/Landing/Col-3.gif" alt="Long Chat MV" />
-          <img src="/Landing/Col-4.gif" alt="Supernova MV" />
+          <img src="./Landing/Col-1.gif" alt="Armageddon MV" />
+          <img src="./Landing/Col-2.gif" alt="Live My life MV" />
+          <img src="./Landing/Col-3.gif" alt="Long Chat MV" />
+          <img src="./Landing/Col-4.gif" alt="Supernova MV" />
         </div>
         <img
-          src="/Landing/Col-AlbumLogo.png"
+          src="./Landing/Col-AlbumLogo.png"
           alt="Armageddon logo"
           className="w-130 absolute top-0 left-1/2 -translate-x-1/2"
         />
         <div className="absolute top-0 left-32">
-          <img src="/Landing/Col-Dog.gif" alt="Ballong dog" className="w-48" />
+          <img src="./Landing/Col-Dog.gif" alt="Ballong dog" className="w-48" />
         </div>
 
         <div className="absolute top-2/3 right-32">
           <img
-            src="/Landing/Col-Gummies.gif"
+            src="./Landing/Col-Gummies.gif"
             alt="Gummi bears"
             className="w-48"
           />
