@@ -1,4 +1,5 @@
 import Divider from "./Divider";
+import MovableGif from "./MovableGif";
 
 export default function AlbumCard({ cover, title, bgColor, songs, icon }) {
   return (
@@ -18,10 +19,10 @@ export default function AlbumCard({ cover, title, bgColor, songs, icon }) {
               </li>
             ))}
           </ul>
-          <img
-            src={icon}
-            alt={`${title} gif`}
-            className="absolute w-44 bottom-0 right-0"
+          <MovableGif
+            gifSrc={icon}
+            gifAlt={`${title} gif`}
+            styles={"absolute w-44 bottom-0 right-0 z-10"}
           />
         </div>
       </div>

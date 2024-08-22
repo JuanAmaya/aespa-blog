@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import Option from "../components/Option";
 import PageTitle from "../components/PageTitle";
+import MovableGif from "../components/MovableGif";
 
 export default function Landing() {
   return (
@@ -50,10 +51,10 @@ export default function Landing() {
 
       <div className="relative">
         <div className="mx-auto absolute -top-44 left-0 right-0 w-max">
-          <img
-            src="./Landing/Col-Cart.gif"
-            alt="Shopping cart"
-            className="w-56"
+          <MovableGif
+            gifSrc={"./Landing/Col-Cart.gif"}
+            gifAlt={"Shopping cart"}
+            styles={"w-56"}
           />
         </div>
         <div className="bg-brightYellow flex flex-col justify-center items-center p-2 gap-2 mt-44 mb-10">
@@ -79,14 +80,18 @@ export default function Landing() {
           className="w-130 absolute top-0 left-1/2 -translate-x-1/2"
         />
         <div className="absolute top-0 left-32">
-          <img src="./Landing/Col-Dog.gif" alt="Ballong dog" className="w-48" />
+          <MovableGif
+            gifSrc={"./Landing/Col-Dog.gif"}
+            gifAlt={"Ballon dog"}
+            styles={"w-48"}
+          />
         </div>
 
         <div className="absolute top-2/3 right-32">
-          <img
-            src="./Landing/Col-Gummies.gif"
-            alt="Gummi bears"
-            className="w-48"
+          <MovableGif
+            gifSrc={"./Landing/Col-Gummies.gif"}
+            gifAlt={"Gummi bears"}
+            styles={"w-48"}
           />
         </div>
       </div>

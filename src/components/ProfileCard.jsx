@@ -1,3 +1,5 @@
+import MovableGif from "./MovableGif";
+
 export default function ProfileCard({
   name,
   idolLogo,
@@ -28,10 +30,10 @@ export default function ProfileCard({
         </div>
       </div>
 
-      <img
-        src={idolIcon}
-        alt={`${name} icon`}
-        className={`absolute w-52 md:bottom-0 ${
+      <MovableGif
+        gifSrc={idolIcon}
+        gifAlt={`${name} icon`}
+        styles={`absolute w-52 md:bottom-0  z-10 ${
           name == "winter" || name == "ningning" ? "md:right-9" : "md:left-9"
         }`}
       />

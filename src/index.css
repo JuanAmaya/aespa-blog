@@ -5,6 +5,7 @@
 body {
   background-image: url("/BG-Pattern.png");
   background-color: #bdcaef;
+  overflow-x: hidden;
 }
 
 /* {
