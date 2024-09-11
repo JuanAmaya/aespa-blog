@@ -2,10 +2,11 @@ import PROFILE from "../data/PROFILE.json";
 import ProfileCard from "../components/ProfileCard";
 import Divider from "../components/Divider";
 import ToMenuHeader from "../components/ToMenuHeader";
+import LoadPageAnimation from "../components/LoadPageAnimation";
 
 export default function Profile() {
   return (
-    <div className="flex flex-col items-center max-w-screen-md mx-auto">
+    <LoadPageAnimation styles="flex flex-col items-center max-w-screen-md mx-auto">
       <ToMenuHeader>Profile</ToMenuHeader>
 
       <div className="m-8">
@@ -24,6 +25,6 @@ export default function Profile() {
           </>
         ))}
       </div>
-    </div>
+    </LoadPageAnimation>
   );
 }

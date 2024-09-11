@@ -1,12 +1,13 @@
 import AlbumCard from "../components/AlbumCard";
+import LoadPageAnimation from "../components/LoadPageAnimation";
 import ToMenuHeader from "../components/ToMenuHeader";
 import DISCOGRAPHY from "../data/DISCOGRAPHY.json";
 const DISCOGRAPHY_REVERSED = DISCOGRAPHY.reverse();
 
 export default function Discography() {
   return (
-    <div className="flex flex-col items-center max-w-screen-md mx-auto">
-      <ToMenuHeader>Dicography</ToMenuHeader>
+    <LoadPageAnimation styles="flex flex-col items-center max-w-screen-md mx-auto">
+      <ToMenuHeader>Discography</ToMenuHeader>
       <div className="mt-8">
         {DISCOGRAPHY_REVERSED.map((album) => (
           <AlbumCard
@@ -19,6 +20,6 @@ export default function Discography() {
           />
         ))}
       </div>
-    </div>
+    </LoadPageAnimation>
   );
 }

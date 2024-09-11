@@ -1,10 +1,11 @@
+import LoadPageAnimation from "../components/LoadPageAnimation";
 import MovableGif from "../components/MovableGif";
 import ToMenuHeader from "../components/ToMenuHeader";
 import MUSICVIDEOS from "../data/MUSICVIDEOS.json";
 
 export default function MusicVideos() {
   return (
-    <div className="flex flex-col items-center max-w-screen-md mx-auto">
+    <LoadPageAnimation styles="flex flex-col items-center max-w-screen-md mx-auto">
       <ToMenuHeader>Music Videos</ToMenuHeader>
       <div className="mt-28 relative">
         <div className="bg-red-300 bg-cover w-96 md:w-192 h-130 mx-auto overflow-y-scroll relative bg-[url('/MV/Space.gif')]">
@@ -45,6 +46,6 @@ export default function MusicVideos() {
           styles={"hidden md:block absolute -bottom-0 -left-10 w-52"}
         />
       </div>
-    </div>
+    </LoadPageAnimation>
   );
 }
